@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vite App</title>
+  </head>
+
+  <body>
+    <form>
+
+      <div class="hero min-h-screen bg-base-200">
+        <div class="hero-content text-center flex flex-col justify-start h-full w-full">
+          <p>To Do List</p>
+          <div class="flex gap-2">
+            <input
+              type="text"
+              id="todo"
+              placeholder="Enter To Do"
+              required
+              class="input input-bordered w-full max-w-xs"
+            />
+            <button id="todoBtn" type="submit" class="btn btn-accent">+</button>
+          </div>
+
+          <div id="todoinfor" class="py-5 font-semibold text-2xl"></div>
+        </div>
+      </div>
+    </form>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
